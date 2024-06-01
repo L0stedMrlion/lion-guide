@@ -22,7 +22,6 @@ function useNextSeoProps() {
 function useHead() {
   const { asPath } = useRouter();
   const { frontMatter, title } = useConfig();
-  const url = `https://overextended.dev${asPath}`;
   const description = frontMatter.description || "Guide for Mrlions Scripts";
 
   return (
@@ -33,7 +32,6 @@ function useHead() {
       <meta name="description" content={description} />
       <meta name="og:title" content={title} />
       <meta name="og:description" content={description} />
-      <meta name="og:url" content={url} />
     </>
   );
 }
