@@ -1,9 +1,16 @@
 {
   "index": "Introduction",
+  "lion_recoil": "Lion Recoil",
   "contact": {
     "title": "📲 Contact",
     "type": "page",
     "href": "https://discord.com/users/710549603216261141",
+    "newWindow": true
+  },
+  "Donate": {
+    "title": "💸 Donate",
+    "type": "page",
+    "href": "paypal.me/lostedmrlion",
     "newWindow": true
   }
 }

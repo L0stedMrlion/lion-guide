@@ -60,7 +60,8 @@ const config: DocsThemeConfig = {
     link: "https://discord.gg/dNrayyRZ9j",
   },
   docsRepositoryBase: "https://github.com/L0stedMrlion/lion-guide",
-  primaryHue: { dark: 200, light: 200 },
+  primaryHue: 59,
+  primarySaturation: 80,
   footer: {
     text: "🦁 Mrlion",
   },
